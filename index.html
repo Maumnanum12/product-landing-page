@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>
+      Product Landing Page
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img src= "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/coffee-shop-logos-design-template-dbac48cd5ac431216670ec2f3fb179af_screen.jpg?ts=1638177904" alt="hero logo" id="header-img">
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#Our-services">Services</a></li>
+            <li><a class="nav-link" href="#How-it-is-brewed">How it is brewed</a></li>
+            <li><a class="nav-link" href="#Our-products">Products</a></li>
+          </ul>
+
+        </nav>
+        
+      </header>
+      <div class="container"></div>
+      <section id="hero">
+        <h2>The perfectly brewed coffee for your day!</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" name="email" type="email" placeholder="Enter your email address" required>
+          <input id="submit" type="submit" value="Click here" class="btn">
+        </form>
+      </section>
+      <div class="container">
+        <section id= "Our-services">
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-plate-wheat"></i></div>
+            <div class="desc">
+              <h3>Our Catering</h3>
+              <p>Our delicious drop-off catering service.</p>
+              <button class="btn"> Order Catering</button>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-stroopwafel"></i>
+            </div>
+            <div class="desc">
+              <h3>The Food</h3>
+              <p>The entire menu is available either dine-in or take away.</p>
+              <button class="btn">Food Menu</button>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-ice-cream"></i>
+            </div>
+            <div class="desc">
+              <h3>The Gelato</h3>
+              <p>Life is like Gelato. Enjoy it before it melts.</p>
+              <button class="btn">Discover More</button>
+            </div>
+          </div>
+        </section>
+        <section id="How-it-is-brewed">
+          <h3>This video shows how our coffee is brewed!</h3>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RY3iRA-F-e8?si=7bq6A5gMmzjDyI9W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="Our-products">
+          <div class="products" id="Double-Espresso">
+            <div class="level">#1 Selling Double Espresso</div>
+            <ol>
+              <li>Highly roasted blend of both Arabica and Robusta</li>
+              <li>Smoky character of cocoa and vanilla</li>
+              <li>Good pair with cheesecake</li>
+            </ol>
+            <button class="btn">Order</button>
+          </div>
+          <div class="products" id="Caramel Macchiato">
+            <div class="level">#2 Selling Caramel Macchiato</div>
+            <ol>
+              <li>Freshly steamed milk with espresso</li>
+              <li>Buttery caramel with vanilla flavour</li>
+              <li>Dark roast with sugary molasses</li>
+            </ol>
+            <button class="btn">Order</button>
+          </div> 
+           <div class="products" id="Matcha">
+            <div class="level">#3 Selling Matcha</div>
+            <ol>
+              <li>Stone grinding specilty green tea</li>
+              <li>Light aromatics of toasted vanilla</li>
+              <li>Milky notes of freshly churned butter</li>
+            </ol>
+            <button class="btn">Order</button>
+          </div> 
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </footer>
+      </div>      
+    </div>
+  </body>
+</html>
+
